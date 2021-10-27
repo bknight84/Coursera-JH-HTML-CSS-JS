@@ -1,0 +1,124 @@
+/* Module 3 assignment styling. */
+* {
+  box-sizing: border-box;
+}
+
+html, body{
+	background-color: #AEFEFF;
+}
+
+h1{
+	text-align: center;
+	font-size: 175%;
+  margin-bottom: 30px;
+}
+
+#container{
+	position: relative;
+}
+
+.row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  border: 3px solid black;
+  height: 150px;
+  background-color: lightgray;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 40px 15px 15px 15px;
+  overflow: auto;
+}
+
+.boxtitle{
+	height: 35px;
+	width: 150px;
+	padding: 5px;
+  margin-right: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0;
+	right: 0;
+  overflow: hidden;
+}
+
+#p1{
+	 background-color: pink;
+	 color: red;
+	 }
+
+#p2{
+	 background-color: #73E34C;
+	 color: #4C64E3;
+}
+
+#p3{
+	 background-color: #4C64E3;
+	 color: #73E34C;
+}
+
+#paragraphImage{
+	width: 50%;
+}
+
+a:hover{
+	background-color: white;
+}
+
+.navbar-header button.navbar-toggle{
+  border: 1px solid black;
+  
+}
+
+.navbar-header button.navbar-toggle {
+  
+}
+
+#header-nav{
+  background-color: #F800FB;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/rockon.png') no-repeat;
+  height: 60px;
+  width: 60px;
+  background-size: contain;
+}
+
+header div{
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+ .navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: yellow;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+
+/* header meadie */
+
+@media (max-width: 767px){
+  #header-image{
+  margin-left: 30px;
+  margin-right: 5px;
+  width: 15%;
+  }
+
+  .navbar-brand h1 { 
+  font-size: 4vw;
+  }
+
+}
