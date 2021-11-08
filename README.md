@@ -7,4 +7,4 @@ HTML, CSS, and Javascript for Web Developers by Johns Hopkins University
 <br>
 <a href="https://bknight84.github.io/Coursera-JH-HTML-CSS-JS/module4-solution/module4-solution.index.html"> Module4-Solution </a>
 <br>
-<a href="https://bknight84.github.io/Coursera-JH-HTML-CSS-JS/module5-solution/index.html"> Module4-Solution </a>
+<a href="https://bknight84.github.io/Coursera-JH-HTML-CSS-JS/module5-solution/index.html"> Module5-Solution </a>
